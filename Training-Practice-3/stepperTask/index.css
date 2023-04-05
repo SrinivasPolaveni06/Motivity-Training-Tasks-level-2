@@ -1,0 +1,155 @@
+
+
+
+* {
+    margin: 0;
+    padding: 0
+}
+
+html {
+    height: 100%
+}
+
+p {
+    color: grey
+}
+
+#heading {
+    text-transform: uppercase;
+    /* color: #673AB7; */
+    font-weight: bold;
+    font-family: italic, sans-serif;
+}
+
+
+.form-card {
+    text-align: left
+}
+
+#msform fieldset:not(:first-of-type) {
+    display: none
+}
+
+#msform input {
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    margin-top: 2px;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: montserrat;
+    color: #2C3E50;
+    background-color: #ECEFF1;
+    font-size: 16px;
+    letter-spacing: 1px
+}
+
+
+
+.card {
+    z-index: 0;
+    border: none;
+    position: relative
+}
+
+
+
+#progressbar {
+    margin-bottom: 30px;
+    overflow: hidden;
+    color: lightgrey
+}
+
+
+#progressbar li {
+    list-style-type: none;
+    font-size: 15px;
+    width: 25%;
+    float: left;
+    position: relative;
+    font-weight: 400
+}
+
+
+#progressbar li:after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: lightgray;
+    position: absolute;
+    left: 0;
+    top: 25px;
+    z-index: -1;
+}
+
+#progressbar li.active:before,
+#progressbar li.active:after {
+    background: #673AB7
+}
+
+
+.btn-circle {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    padding: 16px 0;
+    font-size: 12px;
+
+    border-radius: 25px;
+    margin-top: 1px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.btn-active {
+    background-color: #673AB7;
+}
+
+.btn-noactive {
+    background-color: lightgray;
+
+}
+
+.active-paragraph {
+    color: #673AB7;
+}
+
+.formContainer {
+    background-color: #FBFCFC;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+input {
+    border-radius: 8px;
+}
+
+.rowContainer {
+    background-size: cover;
+    min-height: 80vh;
+}
+
+.paragraph {
+    color: lightgray;
+}
+
+#msform .btn-noactive:hover,
+#msform .btn-noactive:focus {
+    background-color: #808B96
+}
+
+#msform .btn-active:hover,
+#msform .btn-active:focus {
+    background-color: #311B92
+}
+
+#msform .active-paragraph:hover,
+#msform .active-paragraph:focus {
+    color: #311B92
+}
+
+#msform .paragraph:hover,
+#msform .paragraph:focus {
+    color: #808B96
+}

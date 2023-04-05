@@ -1,0 +1,26 @@
+.normalTemparature{
+    width: 250px;
+    height: 250px;
+    border-radius: 150px;
+    background-color: #0B5DD4  ;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.red-card{
+    
+    background-color: #D72A39  ;
+    
+}
+.green-card{
+    
+    background-color: green;
+    
+}
+.cool-card{
+    
+    background-color: #808B96 ;
+    
+}

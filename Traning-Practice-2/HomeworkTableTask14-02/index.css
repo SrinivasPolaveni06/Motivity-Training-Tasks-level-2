@@ -1,0 +1,36 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+  }
+  table{
+    width: 100%;
+  }
+h1{
+    text-align: center;
+}
+tbody tr:nth-child(odd) {
+    background-color: #D6EEEE;
+  }
+tbody tr{
+  text-align: center;
+  padding: 10px;
+}
+img{
+  width: 100px;
+}
+input{
+  width:40%;
+  padding: 6px;
+  margin: 10px;
+  border-radius: 6px;
+
+}
+.input-container{
+  display: flex;
+  justify-content: flex-end;
+}
+button{
+  background-color: transparent;
+  border: 0px;
+}

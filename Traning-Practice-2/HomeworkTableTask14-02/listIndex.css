@@ -1,0 +1,8 @@
+h1{
+    text-align: center;
+}
+li:nth-child(4n+1) {
+    background: red;
+    color: #fff;
+    padding: 5px;
+  }

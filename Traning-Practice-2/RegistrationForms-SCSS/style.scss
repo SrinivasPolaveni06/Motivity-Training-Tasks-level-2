@@ -1,0 +1,128 @@
+$bgImage: "./sunset-1373171__480.jpg";
+$bgColor: #ffffff;
+$display:inline-block;
+
+.left-section{
+    background-color:$bgColor ;
+}
+
+body{
+    margin: 0px;
+  }
+  
+  
+  .Registration-heading{
+    text-align: center;
+  }
+  button {
+    background-color: #148fe4;
+    border: 0px;
+    border-radius: 8px;
+    padding: 8px;
+    width: 120px;
+    color: #fff;
+    font-size: 15px;
+    margin: 20px;
+  }
+  .button-card{
+    text-align: center;
+  }
+  .form-input-cards{
+    margin-top: 8px;
+  }
+  .input-elements{
+    width: 90%;
+    padding: 4px;
+  }
+  textarea{
+    width: 90%;
+  }
+
+  .left-section{
+    
+    @media screen and (max-width:768px) {
+      background-color: $bgColor ;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    }
+    @media screen and (min-width:769px)  {
+      width: 30%;
+      background-color: $bgColor ;
+      border-radius: 10px;
+      padding: 10px;
+      display: $display;
+      margin-right: 10%;
+      float: right;
+    }
+}
+
+.Right-section{
+    
+  @media screen and (max-width:768px) {
+    background-color: $bgColor ;
+    border-radius: 10px;
+
+    padding: 10px;
+    margin: 10px;
+  }
+  @media screen and (min-width:769px)  {
+    width: 30%;
+      background-color: $bgColor ;
+      border-radius: 10px;
+      padding: 10px;
+      
+      display: $display;
+      margin-left: 10%;
+  }
+  
+}
+
+section{
+  @media screen and (max-width:768px) {
+    padding: 10px;
+  }
+  @media screen and (min-width:769px)  {
+    width: 100%;
+    position: absolute;
+    top: 13%;
+  }
+
+  
+}
+  @media screen and (max-width:768px) {
+    
+    
+    
+    .label-class-name{
+        font-weight: 500;
+        
+    }
+    
+    textarea{
+        width: 90%;
+    }
+    
+  }
+
+  main{
+    background-image: url($bgImage);
+    background-size: cover;
+    position: relative;
+    min-width: 100vh;
+    
+}
+  @media screen and (min-width:769px)  {
+  
+    .label-class-name{
+        font-weight: 600;
+        
+    }
+   
+    textarea{
+        width: 90%;
+    }
+    
+  }
+ 
+  

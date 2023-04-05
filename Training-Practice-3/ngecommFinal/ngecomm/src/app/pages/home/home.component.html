@@ -1,0 +1,36 @@
+<div fxLayout="row wrap" fxLayoutAlign="start" fxLayoutGap="30px">
+  <mat-card class="product-card p-4" *ngFor="let product of products">
+    <mat-card-header>
+      <div mat-card-avatar class="example-header-image"></div>
+      <mat-card-title>{{ product.title }}</mat-card-title>
+    </mat-card-header>
+    <img mat-card-image [src]="product.image" alt="{{ product.title }}" />
+    <mat-card-content>
+      <p>
+        <!-- The Shiba Inu is the smallest of the six original and distinct spitz
+        breeds of dog from Japan. A small, agile dog that copes very well with
+        mountainous terrain, the Shiba Inu was originally bred for hunting. -->
+        {{ product.description }}
+      </p>
+      <!-- <mat-card-subtitle>{{ formatPrice(product.price) }} @</mat-card-subtitle> -->
+      <mat-card-subtitle
+        >{{ product.price | formatCurrency : " ₹ " }}
+      </mat-card-subtitle>
+    </mat-card-content>
+    <mat-card-actions>
+      <app-button-icon
+        [icon]="SelectionIcon(product)"
+        (iconClicked)="toggleProductSelection($event, product)"
+      ></app-button-icon>
+      <app-button-icon
+        icon="edit"
+        (iconClicked)="onEdit($event, product)"
+      ></app-button-icon>
+
+      <!-- <app-button-icon icon="favorite_outlined" *ngIf="!product.selected"
+        (iconClicked)="toggleProductSelection($event, product)"></app-button-icon> -->
+      <!-- <app-button-icon icon="favorite_outlined"></app-button-icon> -->
+      <!-- <app-button-icon [icon]="productUnSelectedIcon"></app-button-icon> -->
+    </mat-card-actions>
+  </mat-card>
+</div>

@@ -1,0 +1,20 @@
+.mat-mdc-raised-button:not(:disabled).custom {
+    color: red;
+}
+
+.mat-mdc-raised-button:not(:disabled).custom {
+    background-color:blue;
+}
+
+.product-style{
+    margin:40px 90px;
+}
+.product-description{
+    margin-top: 20px;
+}
+
+.button-style{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}

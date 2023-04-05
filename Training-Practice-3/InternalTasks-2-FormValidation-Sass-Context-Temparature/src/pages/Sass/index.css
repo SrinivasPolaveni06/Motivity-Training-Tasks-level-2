@@ -1,0 +1,33 @@
+.card1 {
+  background-color: lightblue;
+}
+
+table {
+  border: 1px solid black;
+  padding: 6px;
+  text-align: center;
+  width: 100%;
+}
+table th {
+  border: 1px solid black;
+  padding: 6px;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 350px;
+}
+table td {
+  border: 1px solid black;
+  padding: 6px;
+  text-align: center;
+  height: 150px;
+}
+table span {
+  background-color: blue;
+  color: white;
+  padding: 7px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 20px;
+  text-align: center;
+}/*# sourceMappingURL=index.css.map */

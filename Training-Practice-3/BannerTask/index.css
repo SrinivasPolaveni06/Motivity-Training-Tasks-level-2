@@ -1,0 +1,65 @@
+
+li{
+    list-style-type: none;
+    margin-left: 15px;
+    font-weight: 480;
+}
+ul{
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.container1{
+    height: 100vh;
+    background-color: #EDF7FA  ;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+
+}
+.container2{
+    width: 100%;
+    height: 35%;
+}
+.card1{
+    height: 100%;
+    width:70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-top-left-radius:6px ;
+    border-bottom-left-radius:6px ;
+}
+.Title{
+    font-size: 13px;
+}
+span{
+    font-size: 13px;
+}
+.Expires{
+    font-weight: 480;
+}
+.card2{
+    height: 100%;
+    width:30%;
+    background-color: #4052D8 ;
+    border-left: 100px solid white;
+    border-bottom: 240px solid transparent;
+    box-sizing: border-box;
+    border-top-right-radius:6px ;
+    border-bottom-right-radius:6px ;
+    
+    
+}
+.card3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.button{
+    background-color: #AAEBFC  ;
+    border: 1px solid #4976D5   ;
+    border-radius: 18px;
+    width:100px;
+    padding: 6px;
+    color: #4976D5  ;
+}
